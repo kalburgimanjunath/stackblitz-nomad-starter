@@ -2,7 +2,7 @@ import Navbar from './Navbar';
 
 export default function Header() {
   return (
-    <div className="w-full">
+    <div className="w-full flex">
       <Navbar />
       <div>
         <div>Name</div>

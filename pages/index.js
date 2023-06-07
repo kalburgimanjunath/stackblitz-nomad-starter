@@ -6,7 +6,7 @@ import Widgets from '../components/Widgets';
 export default function Home() {
   return (
     <div className="container mx-auto">
-      <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+      <script src="https://cdn.tailwindcss.com"></script>
       <Header />
       <div>
         <div>
