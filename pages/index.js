@@ -1,10 +1,12 @@
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 import Widgets from '../components/Widgets';
-import styles from '../styles/Home.module.css';
+// import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className="container mx-auto">
+      <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
       <Header />
       <div>
         <div>

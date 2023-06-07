@@ -7,7 +7,7 @@ export default function Navbar() {
     'more',
   ];
   return (
-    <div>
+    <div className="container flex">
       {navbar.map((item, index) => {
         return <div key={item + index}>{item}</div>;
       })}
