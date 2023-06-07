@@ -8,13 +8,13 @@ export default function Home() {
     <div className="container mx-auto">
       <script src="https://cdn.tailwindcss.com"></script>
       <Header />
-      <div>
-        <div>
-          <Widgets title="Recently Active Members" />
-          <Widgets title="Groups" />
+      <div className="grid grid-cols-4 gap-4">
+        <div className="grid-cols-1">
+          <Widgets title="Recently Active Members" type="members" />
+          <Widgets title="Groups" type="groups" />
         </div>
-        <div>content</div>
-        <div>
+        <div className="grid-cols-8">content</div>
+        <div className="grid-cols-4">
           <Widgets title="Upcoming Community Events" />
           <Widgets title="Upcoming Meetups" />
           <Widgets title="Benefits Near Me" />
