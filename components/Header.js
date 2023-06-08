@@ -3,7 +3,7 @@ import Navbar from './Navbar';
 
 export default function Header() {
   return (
-    <div className="w-full">
+    <div className="w-full shadow-md">
       <Navbar />
       {/* <div className="flex justify-content-space-between items-center">
         <div className="p-2">manjunathkalburgi@gmail.com</div>
