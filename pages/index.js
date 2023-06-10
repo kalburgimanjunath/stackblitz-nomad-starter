@@ -76,7 +76,7 @@ export default function Home() {
               </Tabs.Item>
             </Tabs.Group>
           </div>
-          <div></div>
+          <div>hello world</div>
         </div>
         <div className="grid-cols-1">
           <Widgets title="Upcoming Community Events" />
