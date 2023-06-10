@@ -8,7 +8,7 @@ import { Tabs } from 'flowbite-react';
 export default function Home() {
   return (
     <div className="container mx-auto">
-      <Alert color="info">Alert!</Alert>
+      {/* <Alert color="info">Alert!</Alert> */}
       <script src="https://cdn.tailwindcss.com"></script>
       <Header />
       <div className="grid grid-cols-3 gap-4 bg-blue-50">

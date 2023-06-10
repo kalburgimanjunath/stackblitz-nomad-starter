@@ -72,7 +72,7 @@ export default function Navbar() {
                   alt=" Logo"
                 />
                 <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                  Logo
+                  TechMadIndia
                 </span>
               </a>
               <form action="#" method="GET" class="hidden lg:block lg:pl-2">
